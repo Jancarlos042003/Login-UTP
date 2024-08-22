@@ -1,0 +1,49 @@
+.user-info img {
+    border: 2px solid #ddd;
+    padding: 3px;
+}
+
+.user-info h6 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.offcanvas-body hr {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.nav-link i {
+    color: #ff0066;
+    transition: transform 0.3s ease; /* Para suavizar la animación de giro */
+}
+
+.nav-link:hover i {
+    color: #ff4081;
+}
+
+/* Rotación del icono cuando se abre el menú */
+.rotate {
+    transform: rotate(180deg); /* Rotar 180 grados */
+}
+
+.navbar {
+    padding-left: 50px; /* logo */
+    padding-right: 20px; /* perfil*/
+}
+
+.offcanvas {
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out; 
+}
+
+
+
+@media (min-width: 992px) {
+    .offcanvas {
+        display: none !important;
+    }
+
+   
+}
+
